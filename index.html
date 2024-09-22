@@ -1,0 +1,2736 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vedantu</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css"/>
+   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+
+   <script>
+   	           $(document).ready(function(){
+   	
+               $(".sing-in").click(function(){
+			  	$(".popup").fadeIn();
+			      });
+
+			  $(".closePopup").click(function(){
+			  	$(".popup").fadeOut();
+			  });
+
+			  $(".overlays").click(function(){
+			  	$(".popup").fadeOut();
+			  });
+
+			  // $('.courses-hide').hide();
+
+			   // $('.courses-dropdown').hover(function(){
+               //  $('.courses-hide').show();
+               //  });
+
+               // $('.courses-hide').mouseleave(function(){
+               //  $(this).hide();
+               //  });
+
+
+               // $('.courseskids-dropdown').hover(function(){
+               //  $('.courseskids-hide').show();
+               //  });
+
+               // $('.courseskids-hide').mouseleave(function(){
+               //  $(this).hide();
+               //  });
+
+               // $('.studymaterial-dropdown').hover(function(){
+               //  $('.studymaterial-hide').show();
+               // })
+
+               // $('.studymaterial-hide').mouseleave(function(){
+               //  $(this).hide();
+               // })
+
+
+               // $('.ncrtlink-hide').hover(function(){
+               //  $('.ncrtsoluction-hide').show();
+               // })
+
+               // $('.ncrtsoluction-hide').mouseleave(function(){
+               //  $('.ncrtsoluction-hide').hide();
+               // })
+
+
+               $('.menuList').hover(function(){
+                 $('.dropdown').hide();
+                 $('.overlay').hide();
+                 $(this).find('.dropdown').show();
+                 $('.overlay').show();
+                });
+
+                $('.menuList').mouseleave(function(){
+                    $(this).find('.dropdown').hide();
+                    $('.overlay').hide();
+                });
+
+                $('.list2').hover(function(){
+                    $('.dropdown2').hide();
+                    $(this).next('.dropdown2').show();
+                    $('.overlay').show();
+                });
+
+                $('.ncrt-hide').mouseleave(function(){
+                    $(this).next('.dropdown2').hide();
+                    $('.list2').next('.dropdown2').hide();
+
+                });
+
+                  
+
+			  });
+
+   </script>
+
+</head>
+ <body>
+
+	<header>
+	   <div class="header-container">
+	   	   <div class="logo">
+	   	  	   <a href="#">
+	   	  	      <img src="img/vedantu-logo.svg" alt="vedantu-logo"> 
+	   	  	    </a>
+	   	   </div>
+           
+           <nav>
+           	 <ul>
+           	    <li class="courses menuList">
+           	    	<div class="courses-dropdown">
+           	    	  Courses
+           	    	  <i class="bi bi-chevron-down"></i>
+           	    	</div>
+           	    	<div class="courses-hide dropdown">
+                       <div class="courseshide-container">
+                           <div class="cours-hide1">
+                                <div class="courshide1-container">
+                                      <div class="coursdrop-hide">
+                                          <a href="#">
+                                              <img src="img/long-team.svg">
+                                              <div>
+                                                 <h3>Long Term Courses</h3>
+                                                 <p>Guaranteed improvement in marks or get your fees back</p>
+                                              </div>
+                                          </a>
+                                      </div>
+                               </div>
+                                <div class="courshide1-container">
+                                      <div class="coursdrop-hide">
+                                          <a href="#">
+                                              <img src="https://growth-cdn.vedantu.com/vmkt/PROD/svg%2Bxml/5bb2c400-af38-473d-94b5-a0f0633c1257-1661769224426-4102418410874681.svg%2Bxml#oto">
+                                              <div>
+                                                 <h3>One-to-one LIVE classes</h3>
+                                                 <p>Learn one-to-one with a teacher for a personalised experience</p>
+                                              </div>
+                                          </a>
+                                      </div>
+                               </div>
+                                <div class="courshide1-container">
+                                    <div class="coursdrop-hide">
+                                        <a href="#">
+                                            <img src="https://vmkt.vedantu.com/vmkt/PROD/svg%2Bxml/b8988f51-df03-4450-88a7-ca66fbf931a0-1674547460687-4102418410874681.svg%2Bxml">
+                                             <div>
+                                                <h3>Topic specific courses</h3>
+                                                 <p>Master any topic at just ₹1 </p>
+                                              </div>
+                                        </a>
+                                      </div>
+                               </div>
+                               <div class="coursfor-kids">
+                                   <div class="courforhide-detls">
+                                       <img src="https://growth-cdn.vedantu.com/vmkt/PROD/svg%2Bxml/5bb2c400-af38-473d-94b5-a0f0633c1257-1661769224426-4102418410874681.svg%2Bxml#vsk">
+                                       <div class="coursehided-texth">Courses for Kids</div>
+                                   </div>
+
+                                   <div class="englishhide-supd">
+                                       <a href="#" class="englislink-hide">
+                                           <img src="img/english-sup.png" width="40px" height="40px" style=" margin-right: 12px; ">
+                                           <div>
+                                               <h3>English Superstar</h3>
+                                               <h5>Age 4-8</h5>
+                                               <p>Level based holistic English program</p>
+                                           </div>
+                                       </a>
+                                   </div>
+                                    <div class="englishhide-supd">
+                                       <a href="#" class="englislink-hide">
+                                           <img src="https://www.vedantu.com/cdn/images/new-header/icons/header-vsk-icons.svg#spoken" width="40px" height="40px" style=" margin-right: 12px; ">
+                                           <div>
+                                               <h3>Spoken English</h3>
+                                               <h5>Class 3 - 5</h5>
+                                               <p>See your child speak fluently</p>
+                                           </div>
+                                       </a>
+                                   </div>
+                                    <div class="englishhide-supd">
+                                       <a href="#" class="englislink-hide">
+                                           <img src="https://www.vedantu.com/cdn/images/new-header/icons/header-vsk-icons.svg#maths" width="40px" height="40px" style=" margin-right: 12px; ">
+                                           <div>
+                                               <h3>Learn Maths</h3>
+                                               <h5>Class 1 and 2</h5>
+                                               <p>Turn your child into a Math wizard</p>
+                                           </div>
+                                       </a>
+                                   </div>
+
+                                   <div class="englishhide-supd">
+                                       <a href="#" class="englislink-hide">
+                                          <img src="/cdn/images/new-header/icons/header-vsk-icons.svg#coding" width="40px" height="40px"
+                                          style=" margin-right: 12px ">
+                                           <div>
+                                               <h3>Coding Classes</h3>
+                                               <h5>Class 1 - 8</h5>
+                                               <p>Learn to build apps and games</p>
+                                           </div>
+                                       </a>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="cours-hide2">
+                               <div class="fineclass-cou">
+                                   <img src="https://growth-cdn.vedantu.com/vmkt/PROD/svg%2Bxml/5bb2c400-af38-473d-94b5-a0f0633c1257-1661769224426-4102418410874681.svg%2Bxml#fcbc" width="40px" height="40px" style="margin-right: 8px;">
+                                    <h3>Find courses by class</h3>
+                               </div>
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi"> 
+                                   <div class="repe-hedi">Repeater</div> 
+                                  </a>
+                               </div>
+                               
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi"> 
+                                    <div class="repe-hedi">Class 12</div> 
+                                    <div class="scien-pcm">Science PCM</div>
+                                    </a>
+                               </div>
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                      <div class="repe-hedi">Class 12</div>
+                                      <div class="scien-pcm">Science PCB</div>  
+                                   </a>
+                               </div>
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div class="repe-hedi">Class 12</div>
+                                     <div class="scien-pcm">Commerce</div>  
+                                   </a>
+                               </div>
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                       <div class="repe-hedi">Class 11</div> 
+                                    <div class="scien-pcm">Science PCM</div>
+                                   </a>
+                               </div>
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                      <div class="repe-hedi">Class 11</div>
+                                      <div class="scien-pcm">Science PCB</div>  
+                                   </a>
+                               </div>
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div class="repe-hedi">Class 11</div>
+                                     <div class="scien-pcm">Commerce</div>  
+                                   </a>
+                               </div>
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div class="repe-hedi">Class 10</div> 
+                                   </a>
+                               </div>
+                                <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div class="repe-hedi">Class 9</div> 
+                                   </a>
+                               </div>
+                                <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div class="repe-hedi">Class 8</div> 
+                                   </a>
+                               </div>
+                                <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div class="repe-hedi">Class 7</div> 
+                                   </a>
+                               </div>
+                                <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div class="repe-hedi">Class 6</div> 
+                                   </a>
+                               </div>
+                                <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div class="repe-hedi">Class 5</div> 
+                                   </a>
+                               </div>
+                                <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div class="repe-hedi">Class 4</div> 
+                                   </a>
+                               </div>
+                                <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div class="repe-hedi">Class 3</div> 
+                                   </a>
+                               </div>
+                                <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div class="repe-hedi">Class 2</div> 
+                                   </a>
+                               </div>
+                                <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div class="repe-hedi">Class 1</div> 
+                                   </a>
+                               </div>
+                                <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div class="repe-hedi">UKG</div> 
+                                   </a>
+                               </div>
+                                <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div class="repe-hedi">LKG</div> 
+                                   </a>
+                               </div>
+                           </div>    
+                        
+                         <div class="cours-hide3">
+                               <div class="fineclass-cou">
+                                   <img src="https://growth-cdn.vedantu.com/vmkt/PROD/svg%2Bxml/5bb2c400-af38-473d-94b5-a0f0633c1257-1661769224426-4102418410874681.svg%2Bxml#fcbt" width="40px" height="40px" style="margin-right: 8px;">
+                                    <h3>Find courses by target</h3>
+                               </div>
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div> 
+                                       <div class="repe-hedi">School tuition</div>
+                                       <div class="forclass3">For Class 3-12</div>
+                                      </div>
+                                      <i class="bi bi-chevron-right"></i>
+                                  </a>
+                               </div>
+                               
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi"> 
+                                    <div> 
+                                       <div class="repe-hedi">JEE</div>
+                                       <div class="forclass3">For Class 11-13</div>
+                                      </div>
+                                      <i class="bi bi-chevron-right"></i>
+                                    </a>
+                               </div>
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div> 
+                                       <div class="repe-hedi">NEET</div>
+                                       <div class="forclass3">For Class 11-13</div>
+                                      </div>
+                                      <i class="bi bi-chevron-right"></i>  
+                                   </a>
+                               </div>
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                    <div> 
+                                       <div class="repe-hedi">Repeater</div>
+                                       <div class="forclass3">For Class 3-12</div>
+                                      </div>
+                                      <i class="bi bi-chevron-right"></i>
+                                   </a>
+                               </div>
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                       <div> 
+                                       <div class="repe-hedi">EAMCET</div>
+                                       <div class="forclass3">Class 12 & 13</div>
+                                      </div>
+                                      <i class="bi bi-chevron-right"></i>
+                                   </a>
+                               </div>
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div> 
+                                       <div class="repe-hedi">Olympiad</div>
+                                       <div class="forclass3">For Class 3-13</div>
+                                      </div>
+                                      <i class="bi bi-chevron-right"></i>
+                                   </a>
+                               </div>
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div> 
+                                       <div class="repe-hedi">CBSE Revision/Drona</div>
+                                       <div class="forclass3">Class 11-12</div>
+                                      </div>
+                                      <i class="bi bi-chevron-right"></i>  
+                                   </a>
+                               </div>
+                               <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div> 
+                                       <div class="repe-hedi">PreBooking Courses (2024-25)</div>
+                                       <div class="forclass3">Class 6-13</div>
+                                      </div>
+                                      <i class="bi bi-chevron-right"></i>
+                                   </a>
+                               </div>
+                                <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div> 
+                                       <div class="repe-hedi">JEE/NEET Foundation</div>
+                                       <div class="forclass3">For Class 8-10</div>
+                                      </div>
+                                      <i class="bi bi-chevron-right"></i>
+                                   </a>
+                               </div>
+                                <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div> 
+                                       <div class="repe-hedi">Concept Mastery Course</div>
+                                       <div class="forclass3">Class 9</div>
+                                      </div>
+                                      <i class="bi bi-chevron-right"></i>
+                                   </a>
+                               </div>
+                                <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div> 
+                                       <div class="repe-hedi">Test Series</div>
+                                       <div class="forclass3">Class 9-13</div>
+                                      </div>
+                                      <i class="bi bi-chevron-right"></i>
+                                   </a>
+                               </div>
+                                <div class="repeater">
+                                   <a href="#" class="repea-hi">
+                                     <div> 
+                                       <div class="repe-hedi">Instasolve - The Doubt App</div>
+                                       <div class="forclass3">Class 9-13s</div>
+                                      </div>
+                                      
+                                   </a>
+                               </div>    
+                           </div>    
+                      </div>
+                   </div>
+           	    </li>
+
+           	    <li class="courses-kids menuList">
+           	    	<div class="courseskids-dropdown">
+           	    		Courses for Kids
+           	    		 <i class="bi bi-chevron-down"></i>
+           	    	</div>
+                    
+                       <div class="courseskids-hide dropdown">   
+                       
+                       <div class="courseskidshide-contanier">
+
+
+                         <div class="englishhidekids-supd">
+                                       <a href="#" class="englislinkids-hide">
+                                           <img src="img/english-sup.png" width="40px" height="40px" style=" margin-right: 12px; ">
+                                           <div>
+                                               <h3>English Superstar</h3>
+                                               <h5>Age 4-8</h5>
+                                               <p>Level based holistic English program</p>
+                                           </div>
+                                       </a>
+                                   </div>
+
+
+                                    <div class="englishhidekids-supd">
+                                       <a href="#" class="englislinkids-hide">
+                                           <img src="https://www.vedantu.com/cdn/images/new-header/icons/header-vsk-icons.svg#spoken" width="40px" height="40px" style=" margin-right: 12px; ">
+                                           <div>
+                                               <h3>Spoken English</h3>
+                                               <h5>Class 3 - 5</h5>
+                                               <p>See your child speak fluently</p>
+                                           </div>
+                                       </a>
+                                   </div>
+                           
+
+                            <div class="englishhidekids-supd">
+                                       <a href="#" class="englislinkids-hide">
+                                           <img src="https://www.vedantu.com/cdn/images/new-header/icons/header-vsk-icons.svg#maths" width="40px" height="40px" style=" margin-right: 12px; ">
+                                           <div>
+                                               <h3>Learn Maths</h3>
+                                               <h5>Class 1 and 2</h5>
+                                               <p>Turn your child into a Math wizard</p>
+                                           </div>
+                                       </a>
+                                   </div>
+                           
+
+                            <div class="englishhidekids-supd">
+                                       <a href="#" class="englislinkids-hide">
+                                           <img src="/cdn/images/new-header/icons/header-vsk-icons.svg#coding" width="40px" height="40px" style="margin-right: 12px;">
+                                           <div>
+                                               <h3>Coding Classes</h3>
+                                               <h5>Class 1 - 8</h5>
+                                               <p>Learn to build apps and games</p>
+                                           </div>
+                                       </a>
+                                   </div>
+                           
+                           
+                       </div>  
+                    
+
+                </div>
+            
+           	    </li>
+
+           	    <li class="study-material menuList">
+           	    	
+           	    	<div class="studymaterial-dropdown">Free study material
+           	    		 <i class="bi bi-chevron-down"></i>
+           	    	</div>
+
+                    <div class="studymaterial-hide dropdown">
+                        <div class="studymaterialhide-container">
+                            <div class="ncrt-hide">
+                                <a href="#" class="ncrtlink-hide list2">
+                                    <h3>NCERT Solutions</h3>
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+
+                                <div class="ncrtsoluction-hide dropdown2">
+                                   <div class="ncrtsoluctionhide-cont">
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 12</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+                                        <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 11</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+                                        <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 10</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+                                        <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 10 Math</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+                                        <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 10 Science</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+                                        <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 9</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+                                        <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 9 Math</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+                                        <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 9 Science</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 8</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 7</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 6</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 5</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 4</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 3</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 2</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+
+                                        <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Solutions for Class 1</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Books</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                             <h4>NCERT Exampls</h4>
+                                              <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                       </div>
+                                   </div> 
+                                </div>
+                            </div>
+                            <div class="ncrt-hide">
+                                <a href="#" class="ncrtlink-hide list2">
+                                    <h3>CBSE</h3>
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+
+                                <div class="ncrtsoluction-hide dropdown2">
+                                   <div class="ncrtsoluctionhide-cont">
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                               <h4>CBSE Important Questions</h4>
+                                                <i class="bi bi-chevron-right"></i>
+                                           </a>
+                                       </div>
+
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                               <h4>CBSE Notes</h4>
+                                                <i class="bi bi-chevron-right"></i>
+                                           </a>
+                                       </div>
+
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                               <h4>CBSE Sample Papers</h4>
+                                                <i class="bi bi-chevron-right"></i>
+                                           </a>
+                                       </div>
+
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                               <h4>
+                                                   Previous Year Question<br> 
+                                                   Papers Class 12
+                                               </h4>
+                                                <i class="bi bi-chevron-right"></i>
+                                           </a>
+                                       </div>
+
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                               <h4>
+                                                   Previous Year Question<br> 
+                                                   Papers Class 10
+                                               </h4>
+                                                <i class="bi bi-chevron-right"></i>
+                                           </a>
+                                       </div>
+
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                               <h4>
+                                                  CBSE Syllabus
+                                               </h4>
+                                                <i class="bi bi-chevron-right"></i>
+                                           </a>
+                                       </div>
+
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                               <h4>
+                                                  CBSE Formula
+                                               </h4>
+                                                <i class="bi bi-chevron-right"></i>
+                                           </a>
+                                       </div>
+
+                                   </div>
+                                </div>      
+                            </div>
+                            <div class="ncrt-hide">
+                                <a href="#" class="ncrtlink-hide list2">
+                                    <h3>JEE Main</h3>
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                                 <div class="ncrtsoluction-hide dropdown2">
+                                   <div class="ncrtsoluctionhide-cont">
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                               <h4>CBSE Important Questions</h4>
+                                                <i class="bi bi-chevron-right"></i>
+                                           </a>
+                                       </div>
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                               <h4>CBSE Notes</h4>
+                                                <i class="bi bi-chevron-right"></i>
+                                           </a>
+                                       </div>
+
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                               <h4>CBSE Sample Papers</h4>
+                                                <i class="bi bi-chevron-right"></i>
+                                           </a>
+                                       </div>
+                                         <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                               <h4>
+                                                   Previous Year Question<br> 
+                                                   Papers Class 12
+                                               </h4>
+                                                <i class="bi bi-chevron-right"></i>
+                                           </a>
+                                       </div>
+
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                               <h4>
+                                                   Previous Year Question<br> 
+                                                   Papers Class 10
+                                               </h4>
+                                                <i class="bi bi-chevron-right"></i>
+                                           </a>
+                                       </div>
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                               <h4>
+                                                  CBSE Syllabus
+                                               </h4>
+                                                <i class="bi bi-chevron-right"></i>
+                                           </a>
+                                       </div>
+
+                                       <div class="ncrtsoluct-1lb">
+                                          <a href="#" class="ncrtlink1lb-hide">
+                                               <h4>
+                                                  CBSE Formula
+                                               </h4>
+                                                <i class="bi bi-chevron-right"></i>
+                                           </a>
+                                       </div>
+
+                                   </div>
+                                </div>  
+
+                            </div>
+                            <div class="ncrt-hide">
+                                <a href="#" class="ncrtlink-hide">
+                                    <h3>JEE Advanced</h3>
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                            </div>
+                            <div class="ncrt-hide">
+                                <a href="#" class="ncrtlink-hide">
+                                    <h3>NEET</h3>
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                            </div>
+                             <div class="ncrt-hide">
+                                <a href="#" class="ncrtlink-hide">
+                                    <h3>Question and Answers</h3>
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                            </div>
+                             <div class="ncrt-hide">
+                                <a href="#" class="ncrtlink-hide">
+                                    <h3>Popular Book Solutions</h3>
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                            </div>
+                             <div class="ncrt-hide">
+                                <a href="#" class="ncrtlink-hide">
+                                    <h3>Subject wise Concepts</h3>
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                            </div>
+                             <div class="ncrt-hide">
+                                <a href="#" class="ncrtlink-hide">
+                                    <h3>ICSE & State Boards </h3>
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                            </div>
+                             <div class="ncrt-hide">
+                                <a href="#" class="ncrtlink-hide">
+                                    <h3>Kids Concept </h3>
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                            </div>
+                             <div class="ncrt-hide">
+                                <a href="#" class="ncrtlink-hide">
+                                    <h3>Online Tuition</h3>
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                            </div>
+                             <div class="ncrt-hide">
+                                <a href="#" class="ncrtlink-hide">
+                                    <h3>Competative Exams and Others</h3>
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                            </div>
+                             <div class="ncrt-hide">
+                                <a href="#" class="ncrtlink-hide">
+                                    <h3>ICSE & State Boards </h3>
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+           	    </li>
+
+           	    <li class="offline-centres">
+           	    	<a href="#" class="offline-cent">Offline Centres</a>
+           	    </li>	
+
+           	    <li class="more menuList">
+           	    	  <div class="more-dropdown">
+           	    		 More
+           	    		 <i class="bi bi-chevron-down"></i>
+           	    	   </div>
+                    
+                      <div class="more-hide dropdown">
+                         <div class="morehide-container">
+                            <div class="ourresults-hide">
+                                <div class="ourresults-celebretion">
+                                    <a href="#" class="ourresultscele-link">
+                                       <div class="ourresultscelebre-container">
+                                          <img src="https://vmkt.vedantu.com/strorefront/courses+menu+icons/header-iconsprite.svg#our-results" width="28px" height="32px">
+                                          <div class="ourresol-text">
+                                              <div class="resolt-he">Our results</div>
+                                              <div class="success-storise">
+                                                  A celebration of all our success<br> stories
+                                               </div>
+                                          </div>
+
+                                       </div>
+                                    </a>
+                                </div>
+                                <div class="ourresults-celebretion">
+                                    <a href="#" class="ourresultscele-link">
+                                       <div class="ourresultscelebre-container">
+                                          <img src="https://vmkt.vedantu.com/strorefront/courses+menu+icons/header-iconsprite.svg#child-safety" width="21" height="32px">
+                                          <div class="ourresol-text">
+                                              <div class="resolt-he">Child safety</div>
+                                              <div class="success-storise">
+                                                  Creating a safe learning environment for every child
+                                               </div>
+                                          </div>
+
+                                       </div>
+                                    </a>
+                                </div>
+                                <div class="ourresults-celebretion">
+                                    <a href="#" class="ourresultscele-link">
+                                       <div class="ourresultscelebre-container">
+                                          <img src="https://vmkt.vedantu.com/strorefront/courses+menu+icons/header-iconsprite.svg#help-india-learn" width="20px" height="32px">
+                                          <div class="ourresol-text">
+                                              <div class="resolt-he">
+                                                 Help India Learn
+                                               </div>
+                                              <div class="success-storise">
+                                                  Helps in learning for Children affected by
+                                                  the Pandemic
+                                               </div>
+                                          </div>
+
+                                       </div>
+                                    </a>
+                                </div>
+                                <div class="ourresults-celebretion">
+                                    <a href="#" class="ourresultscele-link">
+                                       <div class="ourresultscelebre-container">
+                                          <img src="https://vmkt.vedantu.com/strorefront/courses+menu+icons/header-iconsprite.svg#wave" width="20px" height="32px">
+                                          <div class="ourresol-text">
+                                              <div class="resolt-he">WAVE</div>
+                                              <div class="success-storise">
+                                                  Highly-interactive classroom that makes
+                                                  learning fun
+                                               </div>
+                                          </div>
+
+                                       </div>
+                                    </a>
+                                </div>
+                                <div class="ourresults-celebretion">
+                                    <a href="#" class="ourresultscele-link">
+                                       <div class="ourresultscelebre-container">
+                                          <img src="https://vmkt.vedantu.com/strorefront/courses+menu+icons/header-iconsprite.svg#vip" width="18px" height="32px">
+                                          <div class="ourresol-text">
+                                              <div class="resolt-he">
+                                                Vedantu Improvement Promise (VIP)
+                                              </div>
+                                              <div class="success-storise">
+                                                  We guarantee improvement in school and
+                                                   competitive exams
+                                               </div>
+                                          </div>
+
+                                       </div>
+                                    </a>
+                                </div>
+                                <div class="ourresults-celebretion">
+                                    <a href="#" class="ourresultscele-link">
+                                       <div class="ourresultscelebre-container">
+                                          <img src="https://vmkt.vedantu.com/strorefront/courses+menu+icons/header-iconsprite.svg#master-talks" width="19px" height="32px">
+                                          <div class="ourresol-text">
+                                              <div class="resolt-he">Child safety</div>
+                                              <div class="success-storise">
+                                                  Creating a safe learning environment for every child
+                                               </div>
+                                          </div>
+
+                                       </div>
+                                    </a>
+                                </div>
+
+                                <div class="our-initival">
+                                    <div class="oue-initiv">
+                                        <img src="https://vmkt.vedantu.com/strorefront/courses+menu+icons/header-iconsprite.svg#our-initiatives">
+
+                                        <div class="initiav-hea">Our initiatives</div>
+                                    </div>
+
+                                    <div class="vidantuscholarship-adt">
+                                        <div class="vsat-adm">
+                                            Vedantu Scholarship Admission Test (VSAT)
+                                        </div>
+                                        <div class="vedantu-tgcs">
+                                            Give an online test to get up to 100%
+                                            scholarship on Vedantu courses
+                                        </div>
+                                    </div>
+
+                                    <div class="vidantuscholarship-adt">
+                                        <div class="vsat-adm">
+                                            Vedantu Olympiad Litmus Test (VOLT)
+                                        </div>
+                                        <div class="vedantu-tgcs">
+                                            Online test to get a chance to prepare
+                                            free for the international olympiad
+                                        </div>
+                                    </div>
+
+                                    <div class="vidantuscholarship-adt">
+                                        <div class="vsat-adm">
+                                           Eklavya JEE
+                                        </div>
+                                        <div class="vedantu-tgcs">
+                                            Get free online coaching from top teachers
+                                            to crack JEE Advanced exam
+                                        </div>
+                                    </div>
+
+                                    <div class="vidantuscholarship-adt">
+                                        <div class="vsat-adm">
+                                           Eklavya NEET
+                                        </div>
+                                        <div class="vedantu-tgcs">
+                                            Get free online coaching from top teachers
+                                            for NEET exam preparation
+                                        </div>
+                                    </div>
+
+                                     <div class="vidantuscholarship-adt">
+                                        <div class="vsat-adm">
+                                           Revise India
+                                        </div>
+                                        <div class="vedantu-tgcs">
+                                           Free revision camp for Class 10 CBSE
+                                            students with LIVE doubt solving
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="resources-hide">
+                                <div class="resourc">
+                                    <div class="resourc-container">
+                                        <img src="https://vmkt.vedantu.com/strorefront/courses+menu+icons/header-iconsprite.svg#resources">
+                                        <div class="resource-hea">Resources</div>
+                                    </div>
+                                </div>
+                                <div class="testimonial">
+                                    <a href="#" class="testimonia-link">
+                                        <div class="testimoni-con">Testimonials</div>
+                                    </a>
+                                </div>
+                                <div class="testimonial">
+                                    <a href="#" class="testimonia-link">
+                                        <div class="testimoni-con">FAQs</div>
+                                    </a>
+                                </div>
+                                <div class="testimonial">
+                                    <a href="#" class="testimonia-link">
+                                        <div class="testimoni-con">Blogs</div>
+                                    </a>
+                                </div>
+                                <div class="testimonial">
+                                    <a href="#" class="testimonia-link">
+                                        <div class="testimoni-con">News</div>
+                                    </a>
+                                </div>
+
+                                <div class="ourresults-celebretion">
+                                    <a href="#" class="ourresultscele-link">
+                                       <div class="ourresultscelebre-container">
+                                          <img src="https://vmkt.vedantu.com/strorefront/courses+menu+icons/header-iconsprite.svg#about-us" width="18px" height="32px">
+                                          <div class="ourresol-text">
+                                              <div class="resolt-he">About us</div>
+                                              <div class="success-storise">
+                                                  Know more about our passion to
+                                                  revolutionise online education
+                                               </div>
+                                          </div>
+
+                                       </div>
+                                    </a>
+                                </div>
+
+                                 <div class="ourresults-celebretion">
+                                    <a href="#" class="ourresultscele-link">
+                                       <div class="ourresultscelebre-container">
+                                          <img src="https://vmkt.vedantu.com/strorefront/courses+menu+icons/header-iconsprite.svg#careers" width="24px" height="32px">
+                                          <div class="ourresol-text">
+                                              <div class="resolt-he">Careers</div>
+                                              <div class="success-storise">
+                                                  Check out the roles we're currently
+                                                 hiring for
+                                               </div>
+                                          </div>
+
+                                       </div>
+                                    </a>
+                                </div>
+
+                                 <div class="ourresults-celebretion">
+                                    <a href="#" class="ourresultscele-link">
+                                       <div class="ourresultscelebre-container">
+                                          <img src="https://vmkt.vedantu.com/strorefront/courses+menu+icons/header-iconsprite.svg#become-a-teacher" width="22px" height="32px">
+                                          <div class="ourresol-text">
+                                              <div class="resolt-he">Become a teacher</div>
+                                              <div class="success-storise">
+                                                  Apply now to join the team of passionate
+                                                   teachers
+                                               </div>
+                                          </div>
+
+                                       </div>
+                                    </a>
+                                </div>
+
+                                 <div class="ourresults-celebretion">
+                                    <a href="#" class="ourresultscele-link">
+                                       <div class="ourresultscelebre-container">
+                                          <img src="https://vmkt.vedantu.com/strorefront/courses+menu+icons/header-iconsprite.svg#contact-us" width="25px" height="32px">
+                                          <div class="ourresol-text">
+                                              <div class="resolt-he">Contact us</div>
+                                              <div class="success-storise">
+                                                  Got questions? Please get in touch with us
+                                               </div>
+                                          </div>
+
+                                       </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                         </div>
+                     </div>
+           	    </li>
+           	 </ul>
+             <div class="overlay"></div>
+           </nav>
+
+           <div class="header-call">
+           	
+           	  <a href="#">
+           	  	
+           	  	 <div class="call-icon">
+           	  	   <i class="bi bi-telephone-fill"></i>
+           	  	 </div>
+
+           	  	 <div class="phone-number">
+           	  		<p>Talk to our experts</p>
+           	  		<span>1800-120-456-456</span>
+           	  	 </div>
+           	  </a>
+
+           	  <button class="sing-in"> Sign in </button>
+           </div>
+	    </div>	
+	</header>   	    	
+
+	<div class="banner">
+		
+	 <section class="lazy slider" data-sizes="50vw">
+          <div class="sliderInne">
+              <img src="img/super-sholarship.webp" alt="banner" width="100%" height="100%">
+          </div>
+          <div class="sliderInner">
+             <img src="img/vedantu-store.png">
+          </div>
+          <div class="sliderInner">
+            <img src="img/vedantu-lering.png" alt="banner">
+           </div>
+          <div class="sliderInner">
+            <img src="img/jee-main.png" alt="banner">
+          </div>
+   </section>
+
+	</div>
+
+	<div class="popularcourses-det">
+     
+       <div class="popular-cour">popularcourses-det</div>
+
+       <div class="course-scrool">
+       	
+       	   <div class="jee-crash">
+       	   	
+       	   	  <img src="https://vmkt.vedantu.com/vmkt/PROD/svg%2Bxml/3bf6f173-d389-438a-be15-769f9f64613f-1682411152290-4102418410874681.svg%2Bxml">
+              <div class="crajee"> 
+                 JEE Crash
+                 <span><i class="bi bi-chevron-right"></i></span>
+                </div> 
+       	   </div>
+
+           <div class="drona-crash">
+            
+              <img src="https://vmkt.vedantu.com/vmkt/PROD/svg%2Bxml/821a08ef-daaf-4d8e-961d-1804aac64c77-1682411124172-4102418410874681.svg%2Bxml">
+              <div class="crash-dro"> 
+                 Drona Crash
+                 <span><i class="bi bi-chevron-right"></i></span>
+                </div> 
+           </div>
+
+           <div class="olympiad">
+            
+              <img src="https://vmkt.vedantu.com/vmkt/PROD/svg%2Bxml/c73a29df-1d72-4d87-83b9-548fd32ab20f-1682411185877-4102418410874681.svg%2Bxml">
+              <div class="ympiad"> 
+                 Olympiad
+                 <span><i class="bi bi-chevron-right"></i></span>
+                </div> 
+           </div>
+
+           <div class="instasolve">
+            
+              <img src="https://vmkt.vedantu.com/vmkt/PROD/svg%2Bxml/5d86bcba-2443-4044-b97d-107d61c0da79-1682411094804-4102418410874681.svg%2Bxml">
+              <div class="doubt-app"> 
+                 Instasolve - The Doubt App
+                 <span><i class="bi bi-chevron-right"></i></span>
+                </div> 
+           </div>
+
+           <div class="cbse-revision">
+            
+              <img src="https://vmkt.vedantu.com/vmkt/PROD/png/df232556-42ab-483a-860c-2c7c549ba897-1696348393825-4102515828415223.png">
+              <div class="revision-cb"> 
+                 Class 12 CBSE Revision
+                 <span><i class="bi bi-chevron-right"></i></span>
+                </div> 
+           </div>
+
+           <div class="classes-one">
+            
+              <img src="https://vmkt.vedantu.com/vmkt/PROD/svg%2Bxml/3bf6f173-d389-438a-be15-769f9f64613f-1682411152290-4102418410874681.svg%2Bxml">
+              <div class="classto"> 
+                 One to One <br>Classes
+                 <span><i class="bi bi-chevron-right"></i></span>
+                </div> 
+           </div>
+
+       </div>
+		
+	</div>
+
+	<div class="popup">
+            <div class="overlays"></div>
+    	    <div class="popupInners">
+    	    	<div class="sing-content">
+    	    		<div class="singin-left">
+    	    			<div class="ncrt-other">
+                            Welcome to Vedantu
+                        </div>
+
+                        <div class="solutions-img"></div>
+    	    		</div>
+    	    		<div class="singin-right">
+    	    			<div class="header-sing">
+    	    				<img class="closePopup" src="img/crosh.png">
+    	    			</div>
+                        <div class="vedantulear-logo">
+                          <img src="img/vedantu-learn.png" class="vedantu-learn">
+                         </div>
+                        <h3 class="enroll-eachers">  
+                            Login to start your learning 
+                        </h3>
+                         <form class="enteryur-phone">
+                             <div class="input-pho">
+                                 <input type="text" name="">
+                                 <label class="enter-email">Enter your phone or email</label>
+                             </div>
+                              <input type="text" name="" value="Netx" class="botton-next">
+                         </form>
+                         <div class="orsing">OR</div>
+                         <div class="goole-continue">
+                             <img src="img/google-icon.png">
+                              Continue With GOOGLE
+                         </div>
+                         <div class="login-permission">
+                             
+                         
+                         </div>
+    	    		</div>
+    	    	</div>
+    	    	</div>
+    	    </div>
+
+          <div class="explorecour-det">
+            
+              <div class="header-explorecour">
+                Explore courses <span>(Class 3 - 13)</span>
+               </div>
+
+               <div class="detels-excourse">
+                 <div class="examcompet-card">
+                      <div class="jeefoundation-exam">
+                          <p class="class3-13">Class 3 - 13 </p>
+                           <h3>Competitive Exams</h3>
+                           <div class="examscours-list">
+                            <div class="jeeemas-button">
+                              <a href="#" class="jeeexms"> JEE </a> 
+                               </div>
+                               <div class="jeeemas-button">
+                              <a href="#" class="jeeexms"> NEET </a> 
+                               </div>
+                               <div class="jeeneetf-button">
+                              <a href="#" class="jeeexms"> JEE/NEET Foundation </a> 
+                               </div>
+
+                               <div class="esmCet-button">
+                              <a href="#" class="jeeexms"> EAMCET </a> 
+                               </div><br>
+                               <div class="olympiad-button">
+                              <a href="#" class="jeeexms">Olympiad </a> 
+                               </div>
+                            </div>
+
+                             <button class="explocours-button"> Explore Courses </button>
+                        </div>
+                     <div class="jeefoundation-img">
+                       <img src="img/competitive.exams.png">
+                     </div>
+
+
+                 </div>
+
+                 <div class="schooltuition-card">
+                      <div class="jeefoundation-exam">
+                            <p class="class3-12">Class 3 - 12 </p>
+                            <h3>School Tuition</h3>
+                            <div class="examscours-list">
+                            <div class="cbseboard-button">
+                               <a href="#" class="jeeexms"> CBSE Board </a> 
+                             </div>
+                             <div class="icse-board-button">
+                               <a href="#" class="jeeexms"> ICSE Board </a> 
+                              </div>
+                          
+                            </div>
+                            <button class="explocours-button"> Explore Courses </button>
+                        </div>
+                     <div class="jeefoundation-img">
+                       <img src="img/school-tuition.png">
+                     </div>
+                 </div>
+
+                 <div class="courseskids-card">
+                      <div class="jeefoundation-exam">
+                           <p class="class3-13">Class 1 - 5</p>
+                           <h3>Courses for kids</h3>
+                           <div class="examscours-list">
+                              <div class="superstaren-button">
+                                <a href="#" class="jeeexms"> English Superstar</a>
+                               </div>
+                               <div class="spokenen-button">
+                                 <a href="#" class="jeeexms">Spoken English</a>
+                               </div>
+                               <div class="learnmath-button">
+                                 <a href="#" class="jeeexms">Learn Math</a>
+                               </div>
+                               
+                               <div class="learnmath-button">
+                                  <a href="#" class="jeeexms">Learn Code</a>
+                               </div>
+                               </div>
+                               <button class="explocours-button"> 
+                                   Explore Courses 
+                               </button>
+                        </div>
+                       <div class="jeefoundation-img">
+                         <img src="img/courses-kids.png">
+                     </div>
+                  </div>
+               </div>
+          </div>
+
+          <div class="coursesfor-kids">
+             <div class="coursesforkids-container">
+                <h2 class="coukids-heading">Courses for
+                    <span class="kidscou-sp">
+                        kids
+                        <div class="kidline"></div>
+                    </span>
+                </h2>
+
+                <div class="couenglish-sub">
+                  
+                    <div class="specialcour">
+                      <div class="spbox1">
+                       <div class="spe-new"> NEW </div>
+                       <div class="special-itam">
+                          <div class="special-img">
+                             <img src="img/english-sup.png">
+                          </div>
+                          <div class="spcou-det">
+                             <div class="age4-8"> Age 4 - 8 </div>
+                             <h3 class="english-superstar"> 
+                               <a href="#"> English Superstar </a> 
+                             </h3>
+                             <p class="level-program">
+                             Level based holistic English Program
+                            </p>
+                            <button class="explore-superstar"> 
+                              Explore
+                            </button>
+                          </div>
+                       </div>
+
+
+                       <div class="spokenen-itam">
+                          <div class="special-img">
+                             <img src="img/sponken-english.png">
+                          </div>
+                          <div class="spcou-det">
+                             <div class="classage3-5"> Class 3 - 5</div>
+                             <h3 class="english-superstar"> 
+                               <a href="#"> Spoken english </a> 
+                             </h3>
+                             <p class="level-program">
+                                See your child speak fluently and confidently
+                            </p>
+                            <button class="explore-superstar"> 
+                              Explore
+                            </button>
+                          </div>
+                       </div>
+                    </div>
+                  
+
+                  <div class="spbox2">
+
+                    <div class="learnmath-itam">
+                          <div class="special-img">
+                             <img src="img/learn-math.png">
+                          </div>
+                          <div class="spcou-det">
+                             <div class="class1and-2"> Class 1 and 2 </div>
+                             <h3 class="english-superstar"> 
+                               <a href="#"> English Superstar </a> 
+                             </h3>
+                             <p class="level-program">
+                             Level based holistic English Program
+                            </p>
+                            <button class="explore-superstar"> 
+                              Explore
+                            </button>
+                          </div>
+                       </div>
+                    
+
+                    <div class="codingclasses-itam">
+                          <div class="special-img">
+                             <img src="img/coding-classes.svg">
+                          </div>
+                          <div class="spcou-det">
+                             <div class="classage1-8"> Class 1 - 8 </div>
+                             <h3 class="english-superstar"> 
+                               <a href="#"> Coding classes </a> 
+                             </h3>
+                             <p class="level-program">
+                             Learn to build apps and games, be future ready
+                            </p>
+                            <button class="explore-superstar"> 
+                              Explore
+                            </button>
+                          </div>
+                       </div>
+                     </div>
+                    </div>
+
+                    <div class="kidsimage">
+                       <img src="img/super-kid.webp">
+
+                    </div>
+
+                </div>
+                
+             </div>
+          </div>
+
+          <div class="livetustion-banner">
+            <img src="img/live-premium.png">
+            <img src="img/live-premium2.png">
+          </div>
+
+          <div class="master-topic">
+             <div class="master-hamepage">
+                <div class="master-headerpage">
+                   <img src="img/master-page.png" class="masterpic-img">
+                   <div class="specific-courses">
+                      <div class="white-text">
+                         <div class="topspeci">Topic specific courses</div>
+                         <div class="just-topic">Master any topic for just ₹1</div>   
+                      </div>
+                        <button class="explore-topics"> 
+                          <span>Explore topics</span> 
+                        </button>
+                   </div>
+                </div>
+
+                <div class="class-topicdet">
+                  <div class="jee-hours">
+                     <div class="courjee-detls">
+                        <div>
+                           <div class="jeename-cour">Jee</div>
+                           <div class="hours28"> 28 Topics . 40+ hours </div>
+                        </div>
+                         <i class="bi bi-arrow-right-circle-fill" style="font-size: 20px; color: #01202b;"></i>
+                     </div>
+                  </div>
+                  <div class="jee-hours">
+                     <div class="courjee-detls">
+                        <div>
+                           <div class="jeename-cour">Jee</div>
+                           <div class="hours28"> 28 Topics . 40+ hours </div>
+                        </div>
+                         <i class="bi bi-arrow-right-circle-fill" style="font-size: 20px; color: #01202b;"></i>
+                     </div>
+                  </div>
+                  <div class="jee-hours">
+                     <div class="courjee-detls">
+                        <div>
+                           <div class="jeename-cour">Jee</div>
+                           <div class="hours28"> 28 Topics . 40+ hours </div>
+                        </div>
+                         <i class="bi bi-arrow-right-circle-fill" style="font-size: 20px; color: #01202b;"></i>
+                     </div>
+                  </div>
+                  <div class="jee-hours">
+                     <div class="courjee-detls">
+                        <div>
+                           <div class="jeename-cour">Jee</div>
+                           <div class="hours28"> 28 Topics . 40+ hours </div>
+                        </div>
+                         <i class="bi bi-arrow-right-circle-fill" style="font-size: 20px; color: #01202b;"></i>
+                     </div>
+                  </div>
+                  <div class="viewall-topic">
+                     View all
+                    <i class="bi bi-arrow-right-circle-fill" style="font-size: 20px; color: #01202b;"></i>
+                     </div>
+                </div>
+             </div>
+          </div>
+
+          <div class="free-demo">
+             <div class="freecontainer">
+                 <div class="free-session">
+                    <div class="your-session">
+                      Book your 
+                      <span> Free Demo
+                       <div class="demo-frl"></div>
+                       </span>
+                      session
+                     </div>
+                     <div>
+                       <div class="academic-coun">Get a free academic counselling session</div>
+
+                       <button class="book-demfr">Book a free demo</button>
+                     </div>
+
+                </div>
+
+                <div class="free-demimg">
+                   <img src="img/demo-open-form.webp" alt="free-deme" width="490px" height="411px">
+                </div>
+
+             </div>
+          </div>
+
+          <div class="what-nowvidantu">
+             <div class="whatvidantu-container">
+                <h2 class="new-what">What’s 🔥 New on 
+                   <span> &nbsp; Vedantu
+                     <div class="vedantu-line">
+                     </div>
+                   </span>
+                </h2>
+                <div class="whatnow-banner">
+                   <img src="img/whaat-banner.png">
+                   <img src="img/whaat-banner2.png">
+                </div>
+
+             </div>
+          </div>
+
+          <div class="exlpore-offerings">
+             <div class="offerings-button">
+                <h2 class="offerour">Explore all our
+                  <span>
+                    offerings 
+                    <div class="offerinline"></div>
+                  </span>
+                </h2>
+
+                <div class="class-details">
+                    <button class="class12-pass">
+                    <span>Class 12 pass</span> 
+                    </button>
+                    <button class="clas12s">
+                    <span>Class 12</span> 
+                    </button>
+                    <button class="clas11s">
+                    <span>Class 11</span> 
+                    </button>
+                    <button class="clas10s">
+                    <span>Class 10</span> 
+                    </button>
+                    <button class="clas9s">
+                    <span>Class 9</span> 
+                    </button>
+                    <button class="clas9s">
+                    <span>Class 8</span> 
+                    </button>
+                    <button class="clas9s">
+                    <span>Class 7</span> 
+                    </button>
+                    <button class="clas9s">
+                    <span>Class 6</span> 
+                    </button>
+                    <button class="clas1-5s">
+                    <span>Class 1-5</span> 
+                    </button>
+                    <button class="class-lkgukg">
+                    <span>LKG - UKG</span>
+                      <span class="newlkg">NEW</span> 
+                    </button>
+                </div>
+             </div>
+             <div class="free-livecl">
+                 <div class="headerfree-live">
+                     <h2>Free LIVE Classes</h2>
+                     <div class="view-all">View all</div>
+                 </div>
+
+                 <div class="teacher-detels">
+                     <section class="regular slider">
+                         <div>
+                              <div class="video-card">
+                                  <div class="teacher-banner">
+                                     <div class="upcoming">Upcoming</div>
+                                   </div>
+                                   <div class="deteteater-bio">
+                                    <div class="mathem-tech">Mathematics</div>
+                                     <div class="chemist-important">Fun Time - Why Is Chemistry Important in our everyday Life?</div>
+                                     <div class="rachita-sachdeva">18th, Jan 8:00 am | Rachita Sachdeva</div>
+                                     <button class="remind-me"> 
+                                         <img src="img/remind-icon.png" width="16px" height="16px">
+                                          Remind me 
+                                     </button>
+                                    </div>
+                                </div>
+                         </div>
+                         <div>
+                            <div class="video-card">
+                              <div class="teacher-banner2">
+                                <div class="upcoming">Upcoming</div>
+                               </div>
+                                <div class="deteteater-bio">
+                            <div class="physics-tech">Physics</div>
+                            <div class="chemist-important">Fun Time - Why Is Chemistry Important in our everyday Life?</div>
+                            <div class="rachita-sachdeva">18th, Jan 8:00 am | Rachita Sachdeva</div>
+                            <button class="remind-me"> 
+                             <img src="img/remind-icon.png" width="16px" height="16px">
+                            Remind me 
+                          </button>
+                        </div>
+                    </div>
+                          </div>
+                           <div>
+                              <div class="video-card">
+                        <div class="teacher-banner2">
+                           <div class="upcoming">Upcoming</div>
+                        </div>
+                        <div class="deteteater-bio">
+                            <div class="physics-tech">Physics</div>
+                            <div class="chemist-important">Fun Time - Why Is Chemistry Important in our everyday Life?</div>
+                            <div class="rachita-sachdeva">18th, Jan 8:00 am | Rachita Sachdeva</div>
+                            <button class="remind-me"> 
+                             <img src="img/remind-icon.png" width="16px" height="16px">
+                            Remind me 
+                          </button>
+                        </div>
+                    </div>
+                            </div>
+                            <div>
+                               <div class="video-card">
+                        <div class="teacher-banner2">
+                           <div class="upcoming">Upcoming</div>
+                        </div>
+                        <div class="deteteater-bio">
+                            <div class="physics-tech">Physics</div>
+                            <div class="chemist-important">Fun Time - Why Is Chemistry Important in our everyday Life?</div>
+                            <div class="rachita-sachdeva">18th, Jan 8:00 am | Rachita Sachdeva</div>
+                            <button class="remind-me"> 
+                             <img src="img/remind-icon.png" width="16px" height="16px">
+                            Remind me 
+                          </button>
+                        </div>
+                    </div>
+                            </div>
+                             <div>
+                               <div class="video-card">
+                        <div class="teacher-banner2">
+                           <div class="upcoming">Upcoming</div>
+                        </div>
+                        <div class="deteteater-bio">
+                            <div class="physics-tech">Physics</div>
+                            <div class="chemist-important">Fun Time - Why Is Chemistry Important in our everyday Life?</div>
+                            <div class="rachita-sachdeva">18th, Jan 8:00 am | Rachita Sachdeva</div>
+                            <button class="remind-me"> 
+                             <img src="img/remind-icon.png" width="16px" height="16px">
+                            Remind me 
+                          </button>
+                        </div>
+                    </div>
+                             </div>
+                             <div>
+                               <div class="video-card">
+                        <div class="teacher-banner2">
+                           <div class="upcoming">Upcoming</div>
+                        </div>
+                        <div class="deteteater-bio">
+                            <div class="physics-tech">Physics</div>
+                            <div class="chemist-important">Fun Time - Why Is Chemistry Important in our everyday Life?</div>
+                            <div class="rachita-sachdeva">18th, Jan 8:00 am | Rachita Sachdeva</div>
+                            <button class="remind-me"> 
+                             <img src="img/remind-icon.png" width="16px" height="16px">
+                            Remind me 
+                          </button>
+                        </div>
+                    </div>
+                             </div>
+                             </section>
+                    
+                   
+                 </div>
+             </div>
+
+             <div class="study-materials">
+                  <div class="small-container">
+                      <h2>Study Materials</h2>
+                  </div>
+                  <div class="smallcontainer-book">
+                    <section class="regular slider">
+                        <div>
+                          <div class="ncrt-solotion">
+                             <div class="ncert-na">NCERT</div>
+                              <div class="solutions-na">solutions</div>
+                         </div>
+                        </div> 
+                         <div>
+                             <div class="previous-year">
+                                <div class="ncert-na">Previous year</div>
+                               <div class="solutions-na">question papers</div>
+                              </div>
+                         </div>
+                         <div>      
+                       <div class="simpaleques-papper">
+                           <div class="ncert-na">Sample</div>
+                           <div class="solutions-na">question papers</div>
+                       </div>
+                   </div>
+                   <div>
+                       <div class="ncrt-bookscin">
+                           <div class="ncert-na">NCERT</div>
+                           <div class="solutions-na">Books</div>
+                       </div>
+                   </div>
+               </section>
+                  </div>
+             </div>
+          </div>
+
+          <div class="inspired-students">
+              <div class="smallcontainer-inspired">
+                  <div class="smallconten-inspired">
+                      <h2>Inspired students.  Inspired 
+                        <span>
+                             results
+                            <div class="resultsins-lin"></div>
+                        </span>
+                      </h2>
+                      <p class="passion-harwork">
+                         Our results reflect the passion, hardwork and efforts <br> 
+                         of our students and teachers.
+                     </p>
+                     <div class="button-explorevresu">
+                        <button class="explore-course"> Explore courses </button> 
+                        <button class="viewour-results"> View our results </button> 
+                     </div>
+                  </div>
+              </div>
+              <section>
+                      <div class="filter-cour">
+                        <div class="filter-resultcon">
+                            <button class="allclass-result">All</button>
+                            <button class="class-delre">IIT JEE</button>
+                            <button class="class-delre">NEET</button>
+                            <button class="class-delre">10th Board</button>
+                            <button class="class-delre">12th Board</button>
+                            <button class="class-delre">NTSE</button>
+                            <button class="class-delre">Olympiad</button>
+                            <div class="img-stdyfi">
+                                <img src="img/results-hero-image.webp">
+                            </div>
+                        </div>    
+                      </div>
+                       <div class="banner-filterresult">
+                       <section class="lazy slider" data-sizes="50vw">
+                         <div class="sliderInne">
+                            <img src="img/result-banner.png" alt="banner" width="100%" height="100%">
+                         </div>
+                         <div class="sliderInner">
+                            <img src="img/result-banner1.png">
+                         </div>    
+                    </section>
+                  </div>
+                  </section>
+
+                 
+          </div>
+
+          <div class="alltearch-greatest">
+              <div class="teachergreatest-container">
+                  <h2 class="greatest-inspire">All teachers teach.
+                       Greatest 
+                       <span>
+                          teachers
+                          <div class="teachers-line"></div>
+                       </span> 
+                       inspire
+                  </h2>
+                  <div class="teacher-experience">
+                      <div class="teacher-quality">
+                          <img src="img/teacher-experience.svg">
+                          <p>From Top-tier colleges <br>with many years of <br>experience</p>
+                      </div>
+
+                      <div class="teacher-quality">
+                          <img src="img/book-apple-icon.svg">
+                          <p>
+                            Specially-trained teachers to<br> bring out the best in every<br> student.
+                          </p>
+                      </div>
+
+                      <div class="teacher-quality">
+                          <img src="img/hourglass-icon.svg">
+                          <p>Teaching experience of over 4.5 <br>crore hours to 10 lakh students in<br> 1000+ cities in 57 countries.</p>
+                      </div>
+                  </div>
+              </div>
+                  <div class="tearcherexp-detals">
+                    <section class="regular slider">
+                      <div>
+                        <div class="teacherex-det1">
+                          <img src="img/Shreyas.webp" alt="Shreyas">
+                          <div class="tearcherdelt-card">
+                              <div class="experience-box">11+ years exp</div> 
+                              <h3>Shreyas</h3>  
+                              <p>Physics master teacher</p>
+                              <h4>NIT Nagpur</h4> 
+                          </div>
+                      </div>
+                  </div>
+                  <div>
+                        <div class="teacherex-det1">
+                          <img src="img/Nidhi-Sharma.webp" alt="Nidhi-Sharma">
+                          <div class="tearcherdelt-card">
+                              <div class="experience-box">4+ years exp</div> 
+                              <h3>Nidhi Sharma</h3>  
+                              <p>Chemistry master teacher</p>
+                              <h4>Jamia Hamdard</h4> 
+                          </div>
+                      </div>
+                  </div>
+                  <div>
+                        <div class="teacherex-det1">
+                          <img src="img/Luv-Mehan.webp" alt="Luv-Mehan">
+                          <div class="tearcherdelt-card">
+                              <div class="experience-box">2+ years exp</div> 
+                              <h3>Luv Mehan</h3>  
+                              <p>Chemistry Master Teacher</p>
+                              <h4>IISc Bangalore</h4> 
+                          </div>
+                      </div>
+                  </div>
+                  <div>
+                        <div class="teacherex-det1">
+                          <img src="img/Rachita-Sachdeva.webp" alt="Rachita-Sachdeva">
+                          <div class="tearcherdelt-card">
+                              <div class="experience-box">5+ years exp</div> 
+                              <h3>Rachita-Sachdeva</h3>  
+                              <p>Chemistry master teacher</p>
+                              <h4>IIS University</h4> 
+                          </div>
+                      </div>
+                  </div>
+              </section>
+                   </div>
+
+                
+              
+          </div>
+
+          <div class="online-counselling">
+              <div class="achieveget-ved">Achieve more with Vedantu, get 
+                   <span>Free</span>
+                    online counselling now
+              </div>
+
+              <div class="learnlive-botton" style="display: block; justify-content: center;">
+                  <button class="booka-demo">Book a demo</button>
+                  <button class="learn-live">Learn LIVE</button>
+              </div>
+          </div>
+
+          <div class="storiesthat-inspire">
+              <div class="smallcontainer-vedioban">
+                  <div class="storyhandmic-pic">
+                      <img src="img/hand-with.svg" alt="hand-with-mic">
+                      <h2>Stories that
+                        <span>inspire
+                            <div class="inspire-line"></div>
+                        </span>
+                      </h2>
+                  </div>
+
+                  <div class="video-container">
+                      <div class="video-cover">
+                          <img src="img/video-cover.webp">
+                          <button class="video-botton">
+                              <i class="bi bi-caret-right-fill"></i>
+                          </button>
+                      </div>
+                      <div class="video-deatlssu">
+                           <img src="img/icon.png" alt="icons" width="28px" height="20px"> 
+                           <p>After I joined the Eklavya batch at Vedantu, I cracked KVPY and WBJEE and discovered my true potential.</p>
+
+                           <div class="rhythm-sabharwal">
+                              <h4>Rhythm Sabharwal</h4> 
+                              <span>AIR 2973| NEET 2021</span>
+                           </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="videocard-slid">
+                  <div class="videocard-slid-container">
+                    <section class="regular slider" style="width: 100%;">
+                       <div>
+                           <div class="videocard-slid1">
+                          <img src="img/chandvi-thumb.webp">
+                            <button class="video-botton">
+                              <i class="bi bi-caret-right-fill"></i>
+                          </button>
+                          <div class="student-detelsved">
+                              <img src="img/chandvi.jpg">
+                              <div class="studentved-name">
+                                  <h4>Chandvi Taneja
+                                    <span class="stud">Student</span>
+                                  </h4>
+                                  <span class="neet-score">NEET score 575</span>
+                              </div>
+                          </div>
+                      </div>
+                       </div>
+                       <div>
+                        <div class="videocard-slid2">
+                           <p>I had a great experience at Vedantu. All<br> my concepts were clear and I felt <br>confident while appearing for the board<br> exams</p>
+                          <div class="student-detelsved">
+                              <img src="img/arya.jpg">
+                              <div class="studentved-name">
+                                  <h4>Arya Verma
+                                    <span class="stud">Student</span>
+                                  </h4>
+                                  <span class="neet-score">98.4% CBSE XII</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div>
+                        <div class="videocard-slid2">
+                           <p>The LIVE Interactive classes with visual explanations helped me learn and retain all the topics better.</p>
+                          <div class="student-detelsved">
+                              <img src="img/akshat.jpg">
+                              <div class="studentved-name">
+                                  <h4>Akshat Kumar
+                                    <span class="stud">Student</span>
+                                  </h4>
+                                  <span class="neet-score">98.2% CBSE XII</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                 <div>
+                        <div class="videocard-slid2">
+                           <p>The fact that I could learn every topic at my own pace was extremely helpful. The Master Teachers supported me every step of the way</p>
+                          <div class="student-detelsved">
+                              <img src="img/ritika.jpg">
+                              <div class="studentved-name">
+                                  <h4>Ritika Kumari
+                                    <span class="stud">Student</span>
+                                  </h4>
+                                  <span class="neet-score">97.8% CBSE XII</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  </div>
+              </div>
+
+          </div>
+
+
+         <div class="impact-scale"> 
+            <div class="impactscale-containar">
+                <div class="making-education">
+                    <div class="scale-imp">
+                        <img src="img/graph-chart-icon.svg">
+                        <h2 class="impa-it">
+                        Impact. At
+                        <span>
+                            scale
+                            <div class="scal-line"></div> 
+                         </span>
+                       </h2>
+                       <p>Making education affordable and accessible across the globe</p>
+                    </div>
+                    <div class="start-countcon">
+                        <div class="core21">
+                           <div class="hours-learing">
+                               <h3>2.1+ <br>crore</h3>
+                               <p>hours of LIVE learning</p>
+                           </div> 
+                        </div>
+                        <div class="core21">
+                           <div class="hours-learing">
+                               <h3>10+ <br>lakh</h3>
+                               <p>monthly youtube views</p>
+                           </div> 
+                        </div>
+                        <div class="core21">
+                           <div class="hours-learing">
+                               <h3>25+ <br>lakh</h3>
+                               <p>doubts resolved on the app</p>
+                           </div> 
+                        </div>
+                        <div class="core21">
+                           <div class="hours-learing">
+                               <h3>57+ <br>countries</h3>
+                               <p>where students take LIVE classes</p>
+                           </div> 
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="map-imgs">
+                    <img src="img/stats-map.webp">
+                </div>
+            </div>
+         </div>
+
+         <div class="learn-anywhere">
+            <div class="learnanywhere-contanir">
+               <div class="learn-from">
+                <h2>
+                   Learn from
+                   <span>
+                     anywhere
+                     <div class="anywhere-line"></div>
+                  </span>
+                </h2>
+                <p class="android-devices">We’re available on Android devices and platforms.<br> Study from anywhere at your convenience.</p>
+                <div class="goolpaly-play">
+                    <img src="img/google-play.svg">
+                </div>
+            </div>
+            <div class="download-app">
+                <img src="img/download-app.webp">
+            </div>
+            </div>  
+         </div>
+
+         <div class="happy-help">
+             <div class="happyhelp-containar">
+                 <div class="patiently-explain">
+                     <h2>Happy to help you!</h2>
+                     <p class="academic-ecerything">Need more details? Our expert academic counsellors will be happy to <br>patiently explain everything that you want to know.</p>
+                     <button class="speak-expert">Speak to an expert</button>
+                 </div>
+                 <div class="mastr-tearchimg">
+                     <img src="img/master-teacher.webp" alt="Master and Tearch " 
+                     width="405px" height="329px">
+                 </div>
+             </div>
+         </div>
+
+         <footer>
+             <div class="getlink-smdownload">
+                 <div class="company-delt">
+                     <h4>Get link in sms to download the app</h4>
+                     <div class="footer-from">
+                         <form>
+                             <input type="text" name="" placeholder="Enter mobile number">
+                             <div class="dropdown-number">
+                                 <div class="number91">
+                                     + 91
+                                     <i class="bi bi-chevron-down"></i>
+                                 </div>
+                             </div>
+                             <button class="get-link">Get the link</button>
+                         </form>
+                     </div>
+                     <div class="applinks"> 
+                        <a href="#">
+                            <img src="img/google-play.svg">
+                        </a>
+                      </div>
+                      <div class="counselling-cour">
+                          <div class="textcard-footer">
+                              <p>Know more about our courses. Book a <br>free counselling session.</p>
+                              <button class="speakto-anexpert">Speak to an expert</button>
+                          </div>
+                          <img src="img/newsletter-icon.svg">
+                      </div>
+
+                      <div class="footer-number">
+                          <p class="tol-free">
+                              TOLL FREE: 1800-120-456-456
+                          </p>
+                          <p class="mon-sat10am">
+                              <i class="bi bi-telephone"></i>
+                              <span>91 988-660-2456 (Mon-Sat:10AM - 9PM, Sun:10AM - 7PM)</span>
+                          </p>
+                          <p class="mon-sat10am">
+                             <i class="bi bi-envelope"></i>
+                              <span>vcare@vedantu.com</span>
+                          </p>
+                      </div>
+                 </div>
+                 <div class="company-otherlink">
+                     <div class="aboutus-detels">
+                         <div class="aboutusdete-container">
+                             <div class="comny">Company</div>
+                             <ul>
+                                 <li> <a href="#">About us</a> </li>
+                                 <li> <a href="#">Contact us</a> </li>
+                                 <li> <a href="#">Vedantu Blog</a> </li>
+                                 <li> <a href="#">News</a> </li>
+                                 <li> <a href="#">Child safety</a> </li>
+                                 <li> <a href="#">Why Vedantu</a> </li>
+                                 <li> <a href="#">Our results</a> </li>
+                                 <li> <a href="#">Careers</a> </li>
+                                 <li> <a href="#">Help india learn</a> </li>
+                             </ul>
+                         </div>
+                     </div>
+                      <div class="aboutus-detels">
+                         <div class="aboutusdete-container">
+                             <div class="comny">Other Links</div>
+                             <ul>
+                                 <li> <a href="#">Free live classes</a> </li>
+                                 <li> <a href="#">Why teach with Vedantu</a> </li>
+                                 <li> <a href="#">Try WAVE</a> </li>
+                                 <li> <a href="#">Try Whiteboard</a> </li>
+                                 <li> <a href="#">Vedantu improvement promise</a> </li>
+                                 <li> <a href="#">VOLT</a> </li>
+                                 <li> <a href="#">Micro courses</a> </li>
+                                 <li> <a href="#">Maharastra Board</a> </li>
+                                 <li> <a href="#">Benefits</a> </li>
+                                 <li> <a href="#">Engineering Blog</a> </li>
+                             </ul>
+                         </div>
+                     </div>
+                      <div class="aboutus-detels">
+                         <div class="aboutusdete-container">
+                             <div class="comny">Courses</div>
+                             <ul>
+                                 <li> <a href="#">CBSE Tuitions</a> </li>
+                                 <li> <a href="#">ICSE Tuitions</a> </li>
+                                 <li> <a href="#">JEE (Main & Advanced)</a> </li>
+                                 <li> <a href="#">NEET</a> </li>
+                                 <li> <a href="#">Eklavya JEE</a> </li>
+                                 <li> <a href="#">Eklavya NEET</a> </li>
+                                 <li> <a href="#">Computer Science</a> </li>
+                                  <li> <a href="#"></a></li>
+                                  <li> <a href="#"></a></li><br><br>
+                                 
+                                 <div class="comny">Vedantu Super Kids</div>
+                                 <li> <a href="#"></a>English Superstar for kids</li>
+                                  <li> <a href="#"></a>Spoken English</li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="footerstdy-metrial">
+                 <div class="footerstdy-containar">
+                     <div class="study-materiahead">
+                         Study
+                         <span>
+                             material
+                             <div class="material-line"></div>
+                         </span>
+                     </div><br>
+                     <div class="ncert-bookdetls">
+                         <div class="ncrtbook1">
+                             <div class="ncrtbook1-contanair">
+                                 <div class="ncertst-head">NCERT</div>
+                                 <ul>
+                                     <li> <a href="#">NCERT</a> </li>
+                                     <li> <a href="#">NCERT Solutions</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Maths</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>
+                                                      Physics
+                                           </a> 
+                                     </li>
+                                     <li> 
+                                           <a href="#">
+                                             NCERT Solutions for Class 12<br> Chemistry
+                                           </a> 
+                                     </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>Biology</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Business<br> Studies</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br> Economics</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> Accountancy</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> English</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Hindi</a> </li>
+                                 </ul>
+                             </div>
+                         </div>
+
+                         <div class="ncrtbook1">
+                             <div class="ncrtbook1-contanair">
+                                 <div class="ncertst-head"></div>
+                                 <ul>
+                                     <li> <a href="#">NCERT Solutions for Class 11</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 11 Maths</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 11<br> Physics</a></li>
+                                     <li><a href="#">NCERT Solutions for Class 11<br>Chemistry</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>
+                                                      Physics
+                                           </a> 
+                                     </li>
+                                     <li> 
+                                           <a href="#">
+                                             NCERT Solutions for Class 12<br> Chemistry
+                                           </a> 
+                                     </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>Biology</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Business<br> Studies</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br> Economics</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> Accountancy</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> English</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Hindi</a> </li>
+                                 </ul>
+                             </div>
+                         </div>
+
+                         <div class="ncrtbook1">
+                             <div class="ncrtbook1-contanair">
+                                 <div class="ncertst-head"></div>
+                                 <ul>
+                                     <li> <a href="#">NCERT</a> </li>
+                                     <li> <a href="#">NCERT Solutions</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Maths</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>
+                                                      Physics
+                                           </a> 
+                                     </li>
+                                     <li> 
+                                           <a href="#">
+                                             NCERT Solutions for Class 12<br> Chemistry
+                                           </a> 
+                                     </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>Biology</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Business<br> Studies</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br> Economics</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> Accountancy</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> English</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Hindi</a> </li>
+                                 </ul>
+                             </div>
+                         </div>
+
+                         <div class="ncrtbook1">
+                             <div class="ncrtbook1-contanair">
+                                 <div class="ncertst-head"></div>
+                                 <ul>
+                                     <li> <a href="#">NCERT</a> </li>
+                                     <li> <a href="#">NCERT Solutions</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Maths</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>
+                                                      Physics
+                                           </a> 
+                                     </li>
+                                     <li> 
+                                           <a href="#">
+                                             NCERT Solutions for Class 12<br> Chemistry
+                                           </a> 
+                                     </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>Biology</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Business<br> Studies</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br> Economics</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> Accountancy</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> English</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Hindi</a> </li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="ncert-bookdetls">
+                         <div class="ncrtbook1">
+                             <div class="ncrtbook1-contanair">
+                                 <div class="ncertst-head">Reference book solutions</div>
+                                 <ul>
+                                     <li> <a href="#">NCERT</a> </li>
+                                     <li> <a href="#">NCERT Solutions</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Maths</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>
+                                                      Physics
+                                           </a> 
+                                     </li>
+                                     <li> 
+                                           <a href="#">
+                                             NCERT Solutions for Class 12<br> Chemistry
+                                           </a> 
+                                     </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>Biology</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Business<br> Studies</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br> Economics</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> Accountancy</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> English</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Hindi</a> </li>
+                                 </ul>
+                             </div>
+                         </div>
+
+                         <div class="ncrtbook1">
+                             <div class="ncrtbook1-contanair">
+                                 <div class="ncertst-head">Competitive Exams</div>
+                                 <ul>
+                                     <li> <a href="#">NCERT Solutions for Class 11</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 11 Maths</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 11<br> Physics</a></li>
+                                     <li><a href="#">NCERT Solutions for Class 11<br>Chemistry</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>
+                                                      Physics
+                                           </a> 
+                                     </li>
+                                     <li> 
+                                           <a href="#">
+                                             NCERT Solutions for Class 12<br> Chemistry
+                                           </a> 
+                                     </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>Biology</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Business<br> Studies</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br> Economics</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> Accountancy</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> English</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Hindi</a> </li>
+                                 </ul>
+                             </div>
+                         </div>
+
+                         <div class="ncrtbook1">
+                             <div class="ncrtbook1-contanair">
+                                 <div class="ncertst-head">CBSE</div>
+                                 <ul>
+                                     <li> <a href="#">NCERT</a> </li>
+                                     <li> <a href="#">NCERT Solutions</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Maths</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>
+                                                      Physics
+                                           </a> 
+                                     </li>
+                                     <li> 
+                                           <a href="#">
+                                             NCERT Solutions for Class 12<br> Chemistry
+                                           </a> 
+                                     </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>Biology</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Business<br> Studies</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br> Economics</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> Accountancy</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> English</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Hindi</a> </li>
+                                 </ul>
+                             </div>
+                         </div>
+
+                         <div class="ncrtbook1">
+                             <div class="ncrtbook1-contanair">
+                                 <div class="ncertst-head">ICSE</div>
+                                 <ul>
+                                     <li> <a href="#">NCERT</a> </li>
+                                     <li> <a href="#">NCERT Solutions</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Maths</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>
+                                                      Physics
+                                           </a> 
+                                     </li>
+                                     <li> 
+                                           <a href="#">
+                                             NCERT Solutions for Class 12<br> Chemistry
+                                           </a> 
+                                     </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>Biology</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Business<br> Studies</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br> Economics</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> Accountancy</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> English</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Hindi</a> </li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="ncert-bookdetls">
+                         <div class="ncrtbook1">
+                             <div class="ncrtbook1-contanair">
+                                 <div class="ncertst-head"> State boards</div>
+                                 <ul>
+                                     <li> <a href="#">NCERT</a> </li>
+                                     <li> <a href="#">NCERT Solutions</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Maths</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>
+                                                      Physics
+                                           </a> 
+                                     </li>
+                                     <li> 
+                                           <a href="#">
+                                             NCERT Solutions for Class 12<br> Chemistry
+                                           </a> 
+                                     </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>Biology</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Business<br> Studies</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br> Economics</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> Accountancy</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> English</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Hindi</a> </li>
+                                 </ul>
+                             </div>
+                         </div>
+
+                         <div class="ncrtbook1">
+                             <div class="ncrtbook1-contanair">
+                                 <div class="ncertst-head">Free Study Material</div>
+                                 <ul>
+                                     <li> <a href="#">NCERT Solutions for Class 11</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 11 Maths</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 11<br> Physics</a></li>
+                                     <li><a href="#">NCERT Solutions for Class 11<br>Chemistry</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>
+                                                      Physics
+                                           </a> 
+                                     </li>
+                                     <li> 
+                                           <a href="#">
+                                             NCERT Solutions for Class 12<br> Chemistry
+                                           </a> 
+                                     </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>Biology</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Business<br> Studies</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br> Economics</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> Accountancy</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> English</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Hindi</a> </li>
+                                 </ul>
+                             </div>
+                         </div>
+
+                         <div class="ncrtbook1">
+                             <div class="ncrtbook1-contanair">
+                                 <div class="ncertst-head">Important Subjects</div>
+                                 <ul>
+                                     <li> <a href="#">NCERT</a> </li>
+                                     <li> <a href="#">NCERT Solutions</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Maths</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>
+                                                      Physics
+                                           </a> 
+                                     </li>
+                                     <li> 
+                                           <a href="#">
+                                             NCERT Solutions for Class 12<br> Chemistry
+                                           </a> 
+                                     </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>Biology</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Business<br> Studies</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br> Economics</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> Accountancy</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> English</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Hindi</a> </li>
+                                 </ul>
+                             </div>
+                         </div>
+
+                         <div class="ncrtbook1">
+                             <div class="ncrtbook1-contanair">
+                                 <div class="ncertst-head">Revision Notes</div>
+                                 <ul>
+                                     <li> <a href="#">NCERT</a> </li>
+                                     <li> <a href="#">NCERT Solutions</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Maths</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>
+                                                      Physics
+                                           </a> 
+                                     </li>
+                                     <li> 
+                                           <a href="#">
+                                             NCERT Solutions for Class 12<br> Chemistry
+                                           </a> 
+                                     </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>Biology</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Business<br> Studies</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br> Economics</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> Accountancy</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> English</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Hindi</a> </li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="ncert-bookdetls2">
+                         <div class="ncrtbook1">
+                             <div class="ncrtbook1-contanair">
+                                 <div class="ncertst-head">JEE MAIN</div>
+                                 <ul>
+                                     <li> <a href="#">NCERT</a> </li>
+                                     <li> <a href="#">NCERT Solutions</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Maths</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>
+                                                      Physics
+                                           </a> 
+                                     </li>
+                                     <li> 
+                                           <a href="#">
+                                             NCERT Solutions for Class 12<br> Chemistry
+                                           </a> 
+                                     </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>Biology</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Business<br> Studies</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br> Economics</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> Accountancy</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> English</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Hindi</a> </li>
+                                 </ul>
+                             </div>
+                         </div>
+
+                         <div class="ncrtbook1">
+                             <div class="ncrtbook1-contanair">
+                                 <div class="ncertst-head">JEE ADVANCED</div>
+                                 <ul>
+                                     <li> <a href="#">NCERT Solutions for Class 11</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 11 Maths</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 11<br> Physics</a></li>
+                                     <li><a href="#">NCERT Solutions for Class 11<br>Chemistry</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>
+                                                      Physics
+                                           </a> 
+                                     </li>
+                                     <li> 
+                                           <a href="#">
+                                             NCERT Solutions for Class 12<br> Chemistry
+                                           </a> 
+                                     </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>Biology</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Business<br> Studies</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br> Economics</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> Accountancy</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> English</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Hindi</a> </li>
+                                 </ul>
+                             </div>
+                         </div>
+
+                         <div class="ncrtbook1">
+                             <div class="ncrtbook1-contanair">
+                                 <div class="ncertst-head">NEET</div>
+                                 <ul>
+                                     <li> <a href="#">NEET</a> </li>
+                                     <li> <a href="#">NEET Important Questions</a> </li>
+                                     <li> <a href="#">NEET Important Chapters</a> </li>
+                                     <li> <a href="#">NEET Notes</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>
+                                                      Physics
+                                           </a> 
+                                     </li>
+                                     <li> 
+                                           <a href="#">
+                                             NCERT Solutions for Class 12<br> Chemistry
+                                           </a> 
+                                     </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br>Biology</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Business<br> Studies</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 <br> Economics</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> Accountancy</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12<br> English</a> </li>
+                                     <li> <a href="#">NCERT Solutions for Class 12 Hindi</a> </li>
+                                 </ul>
+                             </div>
+                         </div>
+
+                         
+                     </div>
+                     <div>
+                         <h1 class="icselearning-k1">Vedantu: Best Online Learning Platforms for K1 to K12, CBSE, ICSE, JEE & NEET</h1>
+                     </div>
+
+                     <div class="finaltext-content">
+                      Vedantu is India's one of the best <b>education platforms</b>, known for creating one of the most sought after <b>learning apps</b>. With our unique  <b> learning platform</b>called WAVE and immensely talented <b>best teachers</b> , Vedantu offers a highly personalised <b> learning experience</b>
+                       for 1st to 12th grades across CBSE and ICSE Boards. Our hands-on teaching methodology has made Vedantu the primary choice of aspirants for competitive exams like <a href="#">IIT JEE</a>,<a href="#">NEET</a>,
+                       <a href="#">KVPY</a>,<a href="#">NTSE</a>,<a href="IMO"></a>,
+                       <a href="#">IEO</a>,. Also, through our #HarGharVedantu campaign, Vedantu aims to make education accessible to all parts of the country with our affordable <b> online classes </b>.<br><br>
+                       <div class="our-impact">Our Impact</div>
+                       Vedantu Classes rank as the best LIVE and Online Tutoring Website in the top ten cities of India, while in the Middle-East and Singapore, we are among the most recommended <a href="#">online learning apps</a>
+                       at the lowest tuition fees.<br><br>
+                       <div class="our-impact">As An Education website: What makes Vedantu Special?</div>
+                       Vedantu’s innovations and contributions to making education accessible and affordable have led to an enhancement in the quality of online education. Vedantu makes a student’s learning experience special and unforgettable. Here are the points how Vedantu provides unique learning environment for students:<br><br>
+                       <ul>
+                           <li>
+                               <i class="bi bi-circle-fill"></i>
+                               <b>Personalised and Affordable Learning </b><br>
+                               The perfect amalgamation of an incredibly personalised <b> online learning platform </b> and affordable LIVE Online Master Classes makes Vedantu stand out among the other <b> learning websites </b>
+                               . You can avail our <b>online tuition </b> by the best teachers from the most reputed institutions for Classes 1 to 12 (<a href="#">Maths </a>,<a href="#">Physics </a>,Chemistry and <a href="#">Biology </a> ). Short term and long term <b> online courses </b>
+                                for kids and preparation of CBSE and ICSE Boards, other State Boards, and JEE and NEET entrance exams at affordable tuition fees, with an exclusive session for clearing doubts, can only be found at Vedantu.<br><br>
+                           </li>
+                           <li>
+                               <i class="bi bi-circle-fill"></i>
+                               <b>Extensive Learning Material and Feedback</b><br>
+                               We also provide FREE Sample Papers and Solve Important Questions to make you 100% prepared for any exam. Registered Vedantu users get access to engaging learning material including <a href="#">Revision Notes</a> and <a href="#">Formula Sheets</a> , Assignments, Regular Homeworks, Subjective & Objective Tests to ensure regular practice. The Master Teachers follow an interactive approach and pay attention to every student, which is complemented by the best study material and FREE Books Solutions of NCERT, RD Sharma, RS Agarwal and HC Verma. The  <b>online classes</b>  are recorded to access whenever you like. Every student’s academic progress report is also shared during the Parents-Teachers Meeting.
+                               <br> <br>
+                           </li>
+                           <li>
+                               <i class="bi bi-circle-fill"></i><b>Technology-Driven Learning</b> <br> The Vedantu <b>e-learning app</b>  has a good number of quizzes, interactive tools and Objective Tests like V-Brainer, V-Maths, and Turbo Maths with surprise gifts for kids, making it the most loved  <b>learning app</b>  for all grades. <br><br>
+
+                           </li>
+                       </ul>
+                       
+                       <div class="our-impact">Why is online tuition important for Class 1 to 12 students?</div>
+                       The Digital Age is here and it is fast shaping students’ learning methods and future prospects. To keep up the pace, we at Vedantu encourage and help students to ensure a smooth transition from traditional learning methods to <b>online learning</b> , making them ready for tomorrow. With a holistic approach and interactive <b>online classes</b>  for students of Class 1 to 12 grades, Vedantu believes every student has unique needs which can be fulfilled from their homes, making students independent and <b>lifelong learners</b>  under the guidance of Vedantu. <br><br>
+
+                       <div class="our-impact">Why should kids enroll for Vedantu?</div>
+                       Vedantu has your child’s future secured with an incredibly personalised tutoring platform and one-to-one attention for every kid. As the best Online Tuition Website in India, our courses for kids are named as 
+                       <b>Super readers</b> , <b> Super Coders</b> , <b>Super speakers</b> and <b>Super Maths</b> . The only aim with these courses is to provide quality
+                       <a href="#">learning in Coding</a> , <a href="#">English Reading</a> , <a href="#">Spoken English</a> and <a href="#">Maths</a> for early learners, at amazingly affordable tuition fees.<br><br>
+                       Under the guidance of our immensely talented Vedantu Super Teachers, your child will learn to build websites and apps through our expert coding classes, read fluently and independently using phonics techniques, improve their public speaking skills and communicate their ideas with ease as well as get an early head-start in the world of Maths. Vedantu will make sure your child’s confidence and knowledge are at the top of their game right from a tender age. <br> <br>
+                       <div class="our-impact">Other free offerings that we expect from Vedantu apart from online classes.</div> 
+
+                       Vedantu strives to provide a holistic educational experience for its students. Learning doesn’t end after the online tuition classes are over. Revision notes, formula sheets and other free study materials are shared with the students to enable a seamless grasping of the toughest concepts.<br><br> FREE Sample Papers, <a href="#">Important questions</a> , <a href="#">Previous Years’ Question Papers</a> and Mock Tests are well-researched and collected. They are thoroughly solved and discussed to ensure that every student is 100% prepared before taking the exam. Moreover, Free <a href="#">NCERT Solutions</a> , based on the CBSE and ICSE curriculum, and Text Book Solutions of popular books such as RD Sharma, RS Agarwal and HC Verma supplement the Vedantu LIVE Online Master Classes. <br><br>
+                       You can easily download PDFs and soft copies of exhaustive subject material from our website while you prepare for exams like JEE Main, NEET,
+                       <a href="#">KVPY</a> , <a href="#">NTSE</a> , <a href="#">Olympiads</a> ,
+                        <a href="#">CBSE</a> $ <a href="#">ICSE Board</a> exams and your School exams as well. <br><br>
+
+                        <div class="our-impact">Three important reasons to choose Vedantu online courses.</div>
+
+                        If you are asking yourself, why Vedantu? We have summed up the following three reasons to remove the clouds of doubts from your mind: <br> <br>
+                        
+                             <ul>
+                           <li>
+                               <i class="bi bi-circle-fill"></i>
+                               <b>WAVE 2.0 </b><br>
+                               Right from its inception, Vedantu has strived to create impact at a mass-scale level. With world-class technology, we want to ensure every child has access to the top teachers in the country, no matter where they come from. Since its inception, the WAVE platform encourages students’ Online engagement with the Master Teachers. With the internet being a prominent issue in our country, WAVE 2.0 is designed to consume 40% less bandwidth than other platforms and can easily be accessed on mobile devices.<br><br> WAVE 2.0 will be able to gauge every child’s depth of engagement amongst the hundreds in the class. This will enable our teachers to provide just the right nudge to them at the right time. WAVE 2.0 comes with features like AR Filters, Drag & Drop and Hotspot, and a multi-teacher model to be the first among its kind in building a high level of interactiveness. <br> <br>
+                           </li>
+                           <li>
+                               <i class="bi bi-circle-fill"></i>
+                               Students have now stepped into the Digital Age and it will majorly shape the way they learn and their career prospects in future. At Vedantu, we take every necessary step to prepare them for tomorrow and be a constant source of guidance. In our immensely talented and supportive Vedantu Master Teachers, hailing from the most reputed institutions, students will find their appropriate mentors and tutors who will not only teach them but also provide the necessary push towards success. <br> <br>
+                               
+                           </li>
+                           <li>
+                               <i class="bi bi-circle-fill"></i>
+                               Only hours of learning and mugging won’t suffice. Vedantu guarantees online learning along with retention by transforming learning into a fun game through a good number of quizzes and objective tests like V-Brainer, V-Maths and Turbo Maths. These are organised to impart knowledge and reward the best performers with surprise gifts to ensure that motivation is stirred in the best proportion for a clear understanding.
+                           </li>
+                       </ul>
+
+                     </div>
+                     <div class="social-medialink">
+                         <div class="privacy-rights">
+                             <p>© 2024 .Vedantu.com. All rights reserved</p>
+                             <a href="#">Privacy policy</a>
+                             <a href="#">Terms and conditions</a>
+                         </div>
+                         <div class="socialmedia-aapicon">
+                             <a href="#">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="20" fill="none" viewBox="0 0 10 20"><path fill="#102D37" d="M8.174 3.32H10V.14A23.573 23.573 0 0 0 7.34 0C4.708 0 2.905 1.656 2.905 4.7v2.8H0v3.555h2.905V20h3.561v-8.944h2.787L9.696 7.5h-3.23V5.05c0-1.027.277-1.73 1.708-1.73Z"></path></svg>
+                             </a>
+                             <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path fill="#102D37" d="M15.996 16v-.001H16V10.13c0-2.87-.618-5.082-3.974-5.082-1.614 0-2.696.885-3.138 1.724H8.84V5.318H5.66v10.682h3.314v-5.29c0-1.392.264-2.739 1.988-2.739 1.7 0 1.725 1.59 1.725 2.829v5.2h3.31ZM.266 5.318h3.317V16H.266V5.318ZM1.921 0C.861 0 0 .86 0 1.921s.86 1.94 1.921 1.94 1.922-.879 1.922-1.94C3.842.861 2.98 0 1.92 0Z"></path></svg>
+                             </a>
+                             
+                             <a href="#">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" fill="none" viewBox="0 0 16 13"><path fill="#102D37" d="M14.356 3.242A6.547 6.547 0 0 0 16 1.539a6.85 6.85 0 0 1-1.89.518A3.263 3.263 0 0 0 15.553.244a6.563 6.563 0 0 1-2.08.794A3.28 3.28 0 0 0 7.8 3.281c0 .26.022.51.076.748A9.287 9.287 0 0 1 1.114.597a3.308 3.308 0 0 0-.45 1.658c0 1.136.585 2.143 1.458 2.726A3.242 3.242 0 0 1 .64 4.577v.036a3.296 3.296 0 0 0 2.628 3.224 3.262 3.262 0 0 1-.86.108c-.21 0-.422-.012-.62-.056a3.312 3.312 0 0 0 3.064 2.285 6.593 6.593 0 0 1-4.067 1.399c-.269 0-.527-.012-.785-.045A9.237 9.237 0 0 0 5.032 13c5.789 0 9.561-4.83 9.324-9.758Z"></path></svg>
+                             </a>
+                             
+                                 <a href="https://www.youtube.com/user/VedantuInnovations" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" fill="none" viewBox="0 0 16 11"><path fill="#102D37" d="m15.646 1.572.02.127A1.998 1.998 0 0 0 14.287.332l-.014-.003C13.026 0 8.007 0 8.007 0S3-.006 1.74.329A2 2 0 0 0 .352 1.685l-.004.014c-.466 2.362-.47 5.2.02 7.73L.349 9.3c.194.666.716 1.18 1.379 1.366l.014.004C2.987 11 8.007 11 8.007 11s5.006 0 6.267-.33a2 2 0 0 0 1.39-1.356l.003-.013c.212-1.099.333-2.363.333-3.655v-.292c0-1.292-.121-2.556-.354-3.782Zm-9.24 6.29V3.143l4.177 2.363-4.178 2.356Z"></path></svg></a>
+                             
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </footer>
+
+        
+
+
+
+
+<script type="text/javascript" src="js/slick.js"></script>
+<script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".vertical-center-4").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 4,
+        slidesToScroll: 2
+      });
+      $(".vertical-center-3").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".vertical-center-2").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 2,
+        slidesToScroll: 2
+      });
+      $(".vertical-center").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+      });
+      $(".vertical").slick({
+        dots: true,
+        vertical: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 3
+      });
+      $(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true
+      });
+      $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true
+      });
+    });
+</script>
+
+</body>
+</html>
